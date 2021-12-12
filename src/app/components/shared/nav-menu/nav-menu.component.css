@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+}
+
+
+.menu-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: fixed;
+    background: #3335;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    transition: background 0.5s ;
+}
+
+
+.menu-area .logo img{
+    height: 50px;
+    transition: height 0.5s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-area ul{
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-area ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-area ul li a:hover{
+    color: rgb(253, 51, 51);
+}
